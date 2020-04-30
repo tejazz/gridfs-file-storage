@@ -1,0 +1,139 @@
+// upload page
+
+.UploadPage {
+    display: flex;
+    width: 100%;
+}
+
+.Recent {
+    width: 50%;
+
+    &__Title {
+        font-weight: 700;
+        text-transform: uppercase;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    &__Image {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #e5e5e5;
+    }
+
+    .CaptionBox {
+        margin-right: 40px;
+    }
+
+    .ImageBox {
+        border: 2px solid #e5e5e5;
+        display: flex;
+        width: fit-content;
+        padding: 10px;
+        margin: 0 auto;
+        box-shadow: 2px 4px 3px #e5e5e5;
+
+        &__Caption, &__CaptionValue {
+            margin: 0;
+            padding: 8px 10px;
+        }
+
+        &__Caption {
+            opacity: 0.6;
+            width: fit-content;
+        }
+    }
+}
+
+.Upload {
+    width: 50%;
+
+    &__Title {
+        font-weight: 700;
+        text-transform: uppercase;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    &__InputSection {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    &__Caption {
+        margin-right: 10px;
+    }
+
+    &__Image {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 150px;
+        height: 150px;
+        border: 2px solid #e5e5e5;
+        box-shadow: 2px 4px 3px #e5e5e5;
+    }
+
+    &__Button {
+        display: block;
+        font-size: 25px;
+        margin: 10px auto;
+        font-family: 'Brookes';
+        cursor: pointer;
+    }
+}
+
+// list page
+
+.ListPage {
+    padding: 10px;
+
+    &__Title {
+        font-weight: 700;
+        text-transform: uppercase;
+        opacity: 0.6;
+        text-align: center;
+    }
+}
+
+.ListImageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ListImage {
+    width: fit-content;
+    margin: 10px;
+    border: 2px solid #e5e5e5;
+    box-shadow: 2px 4px 3px #e5e5e5;
+    padding: 10px;
+
+    &__Caption, &__Date {
+        margin: 0;
+        padding: 0 6px;
+    }
+
+    &__Caption {
+        margin-top: 6px;
+        font-weight: 600;
+        opacity: 0.6;
+    }
+
+    &__Date {
+        margin-bottom: 6px;
+    }
+
+    &__Image {
+        width: 200px;
+        height: 200px;
+    }
+
+    &__Delete {
+        background-color: red;
+        color: white;
+        display: block;
+        margin: 5px auto;
+    }
+}

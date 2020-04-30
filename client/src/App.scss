@@ -1,0 +1,38 @@
+@font-face {
+  src: url('./assets/fonts/brookes.ttf');
+  font-family: 'Brookes';
+}
+
+.Header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
+
+  &__Title {
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 2px 4px 3px #e5e5e5;
+    font-family: 'Brookes';
+    font-size: 30px;
+    margin: 0;
+  }
+}
+
+.Routes {
+  margin-top: 70px;
+  padding: 10px;
+}
+
+.Menu {
+  position: fixed;
+  top: 15px;
+  right: 10px;
+
+  &__Item {
+      width: 30px;
+      height: 30px;
+      margin-right: 20px;
+      cursor: pointer;
+  }
+}
