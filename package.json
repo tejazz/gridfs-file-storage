@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:client": "cd ./client && npm run start",
     "start:server": "cd ./server && node ./bin/www",
+    "install:server": "cd ./server && npm install",
+    "install:client": "cd ./client && npm install",
+    "install:all": "npm install && npm run install:server && npm run install:client",
     "start": "concurrently \"npm run start:server\" \"npm run start:client\""
   },
   "author": "Tarique Ejaz",
